@@ -22,9 +22,9 @@ import Airbnbimage from "@/public/images/Airbnb.png";
 import ChatVibeimage from "@/public/images/chatapp2.png";
 import Ecommerceimage from "@/public/images/Chinec.png";
 import Exc from "@/public/images/Exc.png";
-import TaskFlowimage from "@/public/images/TaskFlow.png";
+import TaskFlowimage from "@/public/images/Taskflow.png";
 import Mojartoimage from "@/public/images/Moj.png";
-import Blogimage from "@/public/images/blog.png";
+import Blogimage from "@/public/images/Blog.png";
 export default function Projects() {
   const projects = [
     {
