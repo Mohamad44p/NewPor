@@ -6,18 +6,18 @@ export default function Navbar({ className }: { className?: string }) {
   const socials = [
     {
       name: "GitHub",
-      url: "",
+      url: "https://github.com/Mohamad44p",
       icon: SiGithub,
     },
 
     {
       name: "LinkedIn",
-      url: "",
+      url: "www.linkedin.com/in/mohmmad-abuomar-0878772a1",
       icon: SiLinkedin,
     },
     {
       name: "Instagram",
-      url: "",
+      url: "https://www.instagram.com/mohamad.69s/?igsh=MTN4ZHA2MGIxc2Y1Zw%3D%3D",
       icon: SiInstagram,
     },
   ];
