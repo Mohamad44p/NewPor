@@ -12,7 +12,7 @@ export default function Navbar({ className }: { className?: string }) {
 
     {
       name: "LinkedIn",
-      url: "www.linkedin.com/in/mohmmad-abuomar-0878772a1",
+      url: "https://www.linkedin.com/in/mohmmad-abuomar-0878772a1/",
       icon: SiLinkedin,
     },
     {
