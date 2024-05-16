@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const space_Grotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://next-supabase-vote.vercel.app/"),
+  metadataBase: new URL("https://new-por.vercel.app"),
 
   title: "Mohammad Abu Omar",
   authors: {
