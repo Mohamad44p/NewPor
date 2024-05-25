@@ -11,8 +11,10 @@ import {
   SiNextdotjs,
   SiNodedotjs,
   SiOpenai,
+  SiPrisma,
   SiReact,
   SiSanity,
+  SiSass,
   SiSupabase,
   SiTailwindcss,
   SiTypescript,
@@ -25,8 +27,24 @@ import Exc from "@/public/images/Exc.png";
 import TaskFlowimage from "@/public/images/Taskflow.png";
 import Mojartoimage from "@/public/images/Moj.png";
 import Blogimage from "@/public/images/Blog.png";
+import TradeHavenimage from "@/public/images/TH.png";
+import dProjectimage from "@/public/images/3d.png";
 export default function Projects() {
   const projects = [
+    {
+      title: "TradeHaven A Digital Marketplace Masterpiece!",
+      tech: [
+        SiNextdotjs,
+        SiReact,
+        SiTypescript,
+        SiTailwindcss,
+        SiMongodb,
+        SiFramer,
+        SiPrisma,
+      ],
+      link: "https://trade-haven-gamma.vercel.app",
+      cover: TradeHavenimage,
+    },
     {
       title: "Full-stack E-commerce platform with an Admin Dashboard",
       tech: [
@@ -40,6 +58,12 @@ export default function Projects() {
       link: "https://exclusive-ny.vercel.app",
       cover: Exc,
       background: "bg-indigo-500",
+    },
+    {
+      title: "A 3d Website for showcasing 3d models!",
+      tech: [SiNextdotjs, SiReact, SiTypescript, SiSass, SiFramer],
+      link: "https://3dwe.vercel.app",
+      cover: dProjectimage,
     },
     {
       title: "TaskFlow - End-to-End Kanban Board Solution for Task Management!",
