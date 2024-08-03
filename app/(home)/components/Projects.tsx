@@ -29,8 +29,23 @@ import Mojartoimage from "@/public/images/Moj.png";
 import Blogimage from "@/public/images/Blog.png";
 import TradeHavenimage from "@/public/images/TH.png";
 import dProjectimage from "@/public/images/3d.png";
+import Liner from "@/public/images/Liner.png";
+import AiAu from "@/public/images/AiAu.png";
+
 export default function Projects() {
   const projects = [
+    {
+      title: "AI Automate Landing page!",
+      tech: [
+        SiNextdotjs,
+        SiReact,
+        SiTypescript,
+        SiTailwindcss,
+        SiFramer,
+      ],
+      link: "https://ai-fuzzie.vercel.app",
+      cover: AiAu,
+    },
     {
       title: "TradeHaven A Digital Marketplace Masterpiece!",
       tech: [
@@ -44,6 +59,18 @@ export default function Projects() {
       ],
       link: "https://trade-haven-gamma.vercel.app",
       cover: TradeHavenimage,
+    },
+    {
+      title: "Linear Landing page!",
+      tech: [
+        SiNextdotjs,
+        SiReact,
+        SiTypescript,
+        SiTailwindcss,
+        SiFramer,
+      ],
+      link: "https://liner-re.vercel.app",
+      cover: Liner,
     },
     {
       title: "Full-stack E-commerce platform with an Admin Dashboard",
